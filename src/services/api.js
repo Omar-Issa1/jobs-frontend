@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://jobstracker-app.onrender.com",
+  baseURL: "https://jobstracker-app.fly.dev/",
   timeout: 10000,
 });
 
