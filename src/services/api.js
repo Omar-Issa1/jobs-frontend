@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://jobstracker-app.fly.dev/api/v1",
+  baseURL: process.env.REACT_APP_API_URL,
   timeout: 10000,
 });
 
